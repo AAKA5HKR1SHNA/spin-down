@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Austin Open 1",
+    "city": "Austin",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2026-06-06T03:45:00.000Z",
+    "eventTimezone": "America/Chicago",
+    "playerCount": 42
+  },
+  {
+    "id": 2,
+    "title": "Berlin Showdown 2",
+    "city": "Berlin",
+    "format": "HMS",
+    "league": "Open",
+    "eventTime": "2026-04-23T19:15:00.000Z",
+    "eventTimezone": "Europe/Berlin",
+    "playerCount": 37
+  },
+  {
+    "id": 3,
+    "title": "Austin Cup 3",
+    "city": "Austin",
+    "format": "HMS",
+    "league": "Open",
+    "eventTime": "2026-03-05T01:00:00.000Z",
+    "eventTimezone": "America/Chicago",
+    "playerCount": 64
+  },
+  {
+    "id": 4,
+    "title": "Los Angeles Open 4",
+    "city": "Los Angeles",
+    "format": "Beyblade X",
+    "league": "Masters",
+    "eventTime": "2025-11-19T02:45:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 47
+  },
+  {
+    "id": 5,
+    "title": "Los Angeles Showdown 5",
+    "city": "Los Angeles",
+    "format": "Beyblade X",
+    "league": "Open",
+    "eventTime": "2025-07-17T19:45:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 21
+  },
+  {
+    "id": 6,
+    "title": "Melbourne Circuit 6",
+    "city": "Melbourne",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2026-06-15T21:45:00.000Z",
+    "eventTimezone": "Australia/Melbourne",
+    "playerCount": 61
+  },
+  {
+    "id": 7,
+    "title": "Los Angeles Circuit 7",
+    "city": "Los Angeles",
+    "format": "Plastic Generation",
+    "league": "Masters",
+    "eventTime": "2025-08-25T10:45:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 16
+  },
+  {
+    "id": 8,
+    "title": "Toronto Showdown 8",
+    "city": "Toronto",
+    "format": "HMS",
+    "league": "Ranked",
+    "eventTime": "2025-09-17T10:45:00.000Z",
+    "eventTimezone": "America/Toronto",
+    "playerCount": 14
+  },
+  {
+    "id": 9,
+    "title": "Vancouver Circuit 9",
+    "city": "Vancouver",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2026-06-29T13:00:00.000Z",
+    "eventTimezone": "America/Vancouver",
+    "playerCount": 49
+  },
+  {
+    "id": 10,
+    "title": "Seattle Brawl 10",
+    "city": "Seattle",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2026-06-01T17:15:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 46
+  },
+  {
+    "id": 11,
+    "title": "Tokyo Showdown 11",
+    "city": "Tokyo",
+    "format": "Burst Standard",
+    "league": "Ranked",
+    "eventTime": "2026-06-05T20:00:00.000Z",
+    "eventTimezone": "Asia/Tokyo",
+    "playerCount": 26
+  },
+  {
+    "id": 12,
+    "title": "Los Angeles Cup 12",
+    "city": "Los Angeles",
+    "format": "Beyblade X",
+    "league": "Ranked",
+    "eventTime": "2026-06-23T13:15:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 18
+  },
+  {
+    "id": 13,
+    "title": "London Brawl 13",
+    "city": "London",
+    "format": "Burst Standard",
+    "league": "Open",
+    "eventTime": "2025-12-21T17:45:00.000Z",
+    "eventTimezone": "Europe/London",
+    "playerCount": 22
+  },
+  {
+    "id": 14,
+    "title": "Vancouver Cup 14",
+    "city": "Vancouver",
+    "format": "Beyblade X",
+    "league": "Open",
+    "eventTime": "2026-02-21T10:15:00.000Z",
+    "eventTimezone": "America/Vancouver",
+    "playerCount": 35
+  },
+  {
+    "id": 15,
+    "title": "Tokyo Clash 15",
+    "city": "Tokyo",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2026-05-06T20:00:00.000Z",
+    "eventTimezone": "Asia/Tokyo",
+    "playerCount": 18
+  },
+  {
+    "id": 16,
+    "title": "Tokyo Circuit 16",
+    "city": "Tokyo",
+    "format": "Metal Fight",
+    "league": "Ranked",
+    "eventTime": "2026-04-26T19:30:00.000Z",
+    "eventTimezone": "Asia/Tokyo",
+    "playerCount": 33
+  },
+  {
+    "id": 17,
+    "title": "Seattle Open 17",
+    "city": "Seattle",
+    "format": "Metal Fight",
+    "league": "Ranked",
+    "eventTime": "2026-05-15T13:00:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 61
+  },
+  {
+    "id": 18,
+    "title": "Los Angeles Cup 18",
+    "city": "Los Angeles",
+    "format": "Plastic Generation",
+    "league": "Ranked",
+    "eventTime": "2026-07-01T16:00:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 39
+  },
+  {
+    "id": 19,
+    "title": "Chicago Cup 19",
+    "city": "Chicago",
+    "format": "Beyblade X",
+    "league": "Open",
+    "eventTime": "2026-06-13T17:00:00.000Z",
+    "eventTimezone": "America/Chicago",
+    "playerCount": 56
+  },
+  {
+    "id": 20,
+    "title": "Seattle Open 20",
+    "city": "Seattle",
+    "format": "Beyblade X",
+    "league": "Masters",
+    "eventTime": "2025-09-17T17:30:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 24
+  },
+  {
+    "id": 21,
+    "title": "Toronto Showdown 21",
+    "city": "Toronto",
+    "format": "HMS",
+    "league": "Ranked",
+    "eventTime": "2026-06-21T10:45:00.000Z",
+    "eventTimezone": "America/Toronto",
+    "playerCount": 38
+  },
+  {
+    "id": 22,
+    "title": "Melbourne Clash 22",
+    "city": "Melbourne",
+    "format": "Beyblade X",
+    "league": "Masters",
+    "eventTime": "2026-06-15T20:15:00.000Z",
+    "eventTimezone": "Australia/Melbourne",
+    "playerCount": 57
+  },
+  {
+    "id": 23,
+    "title": "Berlin Open 23",
+    "city": "Berlin",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2025-10-07T10:30:00.000Z",
+    "eventTimezone": "Europe/Berlin",
+    "playerCount": 61
+  },
+  {
+    "id": 24,
+    "title": "Berlin Showdown 24",
+    "city": "Berlin",
+    "format": "HMS",
+    "league": "Masters",
+    "eventTime": "2025-08-16T14:15:00.000Z",
+    "eventTimezone": "Europe/Berlin",
+    "playerCount": 51
+  },
+  {
+    "id": 25,
+    "title": "Vancouver Showdown 25",
+    "city": "Vancouver",
+    "format": "Metal Fight",
+    "league": "Ranked",
+    "eventTime": "2026-01-15T11:15:00.000Z",
+    "eventTimezone": "America/Vancouver",
+    "playerCount": 52
+  },
+  {
+    "id": 26,
+    "title": "Seattle Brawl 26",
+    "city": "Seattle",
+    "format": "Burst Standard",
+    "league": "Masters",
+    "eventTime": "2026-06-18T13:45:00.000Z",
+    "eventTimezone": "America/Los_Angeles",
+    "playerCount": 23
+  },
+  {
+    "id": 27,
+    "title": "Melbourne Cup 27",
+    "city": "Melbourne",
+    "format": "Metal Fight",
+    "league": "Masters",
+    "eventTime": "2026-04-24T20:30:00.000Z",
+    "eventTimezone": "Australia/Melbourne",
+    "playerCount": 20
+  },
+  {
+    "id": 28,
+    "title": "Vancouver Circuit 28",
+    "city": "Vancouver",
+    "format": "Plastic Generation",
+    "league": "Masters",
+    "eventTime": "2026-07-01T15:30:00.000Z",
+    "eventTimezone": "America/Vancouver",
+    "playerCount": 54
+  },
+  {
+    "id": 29,
+    "title": "Toronto Brawl 29",
+    "city": "Toronto",
+    "format": "Beyblade X",
+    "league": "Open",
+    "eventTime": "2025-11-04T18:45:00.000Z",
+    "eventTimezone": "America/Toronto",
+    "playerCount": 59
+  },
+  {
+    "id": 30,
+    "title": "Tokyo Clash 30",
+    "city": "Tokyo",
+    "format": "Plastic Generation",
+    "league": "Masters",
+    "eventTime": "2026-06-19T17:00:00.000Z",
+    "eventTimezone": "Asia/Tokyo",
+    "playerCount": 17
+  }
+]

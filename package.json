@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preview": "vite preview",
+    "setup:frontend": "node tools/setup-frontend.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "nitro": "latest",
+    "prettier": "3.9.5",
+    "typescript": "6.0.3",
+    "vite": "latest"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.16.0",
+      "onFail": "download"
+    }
+  }
+}

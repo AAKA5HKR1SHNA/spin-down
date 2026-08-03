@@ -1,0 +1,12 @@
+# Dependencies and build artifacts
+node_modules
+.nitro
+.output
+build
+coverage
+
+# Generated data and lockfiles
+challenge-data
+package-lock.json
+tools/generate-leaderboard-challenge-data.mjs
+WALKTHROUGH.md

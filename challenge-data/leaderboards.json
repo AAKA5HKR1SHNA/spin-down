@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Regional Burst Standard Rankings",
+    "slug": "regional-burst-standard-rankings-1",
+    "description": "Elo rankings for Burst Standard events across recent community tournaments.",
+    "league": "Masters",
+    "formats": [
+      "Burst Standard"
+    ],
+    "isOfficial": true,
+    "isFeatured": false,
+    "bannerImageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20400%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23172033%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%23ffffff%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2256%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ERegional%20Burst%20Standard%20Rankings%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "createdAt": "2024-10-07T11:00:00.000Z",
+    "scoring": "elo"
+  },
+  {
+    "id": 2,
+    "title": "Circuit HMS Rankings",
+    "slug": "circuit-hms-rankings-2",
+    "description": "Elo rankings for HMS events across recent community tournaments.",
+    "league": "Open",
+    "formats": [
+      "HMS"
+    ],
+    "isOfficial": false,
+    "isFeatured": false,
+    "bannerImageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20400%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23155bb5%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%23ffffff%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2256%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ECircuit%20HMS%20Rankings%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "createdAt": "2025-06-15T14:45:00.000Z",
+    "scoring": "elo"
+  },
+  {
+    "id": 3,
+    "title": "Circuit HMS Rankings",
+    "slug": "circuit-hms-rankings-3",
+    "description": "Elo rankings for HMS and Plastic Generation events across recent community tournaments.",
+    "league": "Open",
+    "formats": [
+      "HMS",
+      "Plastic Generation"
+    ],
+    "isOfficial": true,
+    "isFeatured": false,
+    "bannerImageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20400%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23c82e47%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%23ffffff%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2256%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ECircuit%20HMS%20Rankings%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "createdAt": "2024-08-06T20:15:00.000Z",
+    "scoring": "elo"
+  },
+  {
+    "id": 4,
+    "title": "Winter Beyblade X Rankings",
+    "slug": "winter-beyblade-x-rankings-4",
+    "description": "Elo rankings for Beyblade X events across recent community tournaments.",
+    "league": "Masters",
+    "formats": [
+      "Beyblade X"
+    ],
+    "isOfficial": true,
+    "isFeatured": true,
+    "bannerImageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20400%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%2318734c%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%23ffffff%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2256%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EWinter%20Beyblade%20X%20Rankings%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "createdAt": "2024-07-28T16:30:00.000Z",
+    "scoring": "elo"
+  },
+  {
+    "id": 5,
+    "title": "Summer Beyblade X Rankings",
+    "slug": "summer-beyblade-x-rankings-5",
+    "description": "Elo rankings for Beyblade X events across recent community tournaments.",
+    "league": "Open",
+    "formats": [
+      "Beyblade X"
+    ],
+    "isOfficial": true,
+    "isFeatured": false,
+    "bannerImageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20400%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%237048a8%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%23ffffff%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2256%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ESummer%20Beyblade%20X%20Rankings%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "createdAt": "2024-09-03T14:45:00.000Z",
+    "scoring": "elo"
+  },
+  {
+    "id": 6,
+    "title": "Regional Metal Fight Rankings",
+    "slug": "regional-metal-fight-rankings-6",
+    "description": "Elo rankings for Metal Fight and Burst Standard events across recent community tournaments.",
+    "league": "Masters",
+    "formats": [
+      "Metal Fight",
+      "Burst Standard"
+    ],
+    "isOfficial": true,
+    "isFeatured": false,
+    "bannerImageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20400%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23172033%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%23ffffff%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2256%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ERegional%20Metal%20Fight%20Rankings%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "createdAt": "2024-11-05T17:30:00.000Z",
+    "scoring": "elo"
+  }
+]
