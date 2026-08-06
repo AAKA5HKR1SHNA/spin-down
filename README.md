@@ -102,8 +102,6 @@ The [`SUBMISSION.md`](SUBMISSION.md) template is available as a starting point. 
 | Judgment          | Was the work scoped appropriately for the timebox?                     |
 | Workflow          | Can you explain how you built it and why?                              |
 
-After submission, we will schedule a 45-60 minute conversation. See [`WALKTHROUGH.md`](WALKTHROUGH.md) for details.
-
 ## Build and Preview
 
 ```bash
