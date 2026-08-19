@@ -1,110 +1,53 @@
-# Spin Down Starter
+# skin's leaderboard prototype
 
-This starter uses [Vite](https://vite.dev/) and [Nitro v3](https://nitro.build/) to support the Spin Down leaderboard challenge. It requires Node.js 24.16 or newer.
+## How to Run
 
-### A coding challenge from the World Beyblade Organization
+It runs the exact same way the files given to me run. I did try to convert the TypeScript files into JavaScript such that someone could run the index.html file, but it broke a lot of things within the leaderboards for some reason. Regardless, the steps to do so are:
 
-## The Challenge
+ - Installing the base dependencies and choosing React (make sure you already have Node.js 24.x installed, it doesn't like v26 for some reason):
 
-Build the user-facing side of a leaderboard viewing experience as a web application. Six leaderboards are included in [`challenge-data/leaderboards.json`](challenge-data/leaderboards.json), along with their tournaments and players in the other files in that directory.
+ ```bash
+ npm install
+ npm run setup:frontend --react
+ ```
 
-A user should be able to search for leaderboards and view individual leaderboard stats. That is the core experience. How you structure the product and how far you take it is up to you.
+ - Then start the development server with:
 
-## Core Requirements
+ ```bash
+ npm run dev
+ ```
 
-- Browse and search the leaderboards
-- Show a leaderboard detail view with its description, formats, player rankings, and banner image
-- Provide a usable experience on desktop and mobile
-- Include clear instructions in your README for running the project locally
+ - Finally, open `localhost:3000` on your web browser of choice and gaze in awe (if things go well).
 
-## Getting Started
+## What I Built/Time Spent
 
-Install the base dependencies, then choose Vue or React for the frontend:
+I spent a total of 5 hours on this assignment, although 2 of those hours were me attempting to do more than explicitly asked for and paying for it dearly.
 
-```bash
-npm install
-npm run setup:frontend -- vue
-```
+I spent the first 5-10 mocking up what the finished product might look like. I've inserted an image of my mockup (drawn on a sticky note) below:
+![Very Poor Diagram](https://media.discordapp.net/attachments/694061529846251543/1539475483371241513/IMG_8157.jpg?ex=6a8673c5&is=6a852245&hm=71e4a573f1bcc22a0202674c33b6b2031e16112b2310c033fd8a808aae5b6754&=&format=webp&width=1152&height=1536)
 
-Replace `vue` with `react` to use React. The setup command installs the selected framework, its router, and Tailwind CSS; configures Vite and TypeScript; and creates minimal `/` and `/leaderboards/:slug` routes. Run it once, before editing the frontend.
+I spent the next 20 minutes going over what files were provided and figuring out what ideas were viable and what weren't. I also got a little confused setting up the working environment but I figured things out.
 
-Start the development server:
+I spent the rest of my 3 hours working on the individual sections. I would estimate I spent an hour making the leaderboard search and overall view, and closer to an hour and a half on the leaderboard details (mainly because I had to check what the slug gave me in terms of information and then decide what I wanted to keep in). I also added a dark mode because it helped my eyes and was also very easy to implement.
 
-```bash
-npm run dev
-```
+I thought it would make things much more presentable if I could allow the index.html file to be run through a local web server, as mentioned above, and I spent 2 hours trying to fix things after my first attempt broke the leaderboards, although I was not successful.
 
-The generated project provides `npm run typecheck`, `npm run format`, and `npm run format:check`. `npm run build` runs the typecheck before creating the production build.
+In terms of AI usage, I used Gemini to create a basic template for the page, after which I manually fixed any issues the generated code had and cleaned up the website visually, and manually added some QoL features, like the Official and Featured checkmarks, and the WBO logo.
 
-## Data API
+## Assumptions and Scope
 
-The starter exposes the challenge data through read-only endpoints:
+I decided to skip the markers that indicated how ELO had changed from the detailed leaderboard data, as I felt that it overcomplicated the design of the leaderboard page. I also felt that including whether a tournament was Open or Masters format felt redundant as a leaderboard that was Open format would have Open format tournaments, and vice-versa.
 
-| Endpoint                             | Description                                                           |
-| ------------------------------------ | --------------------------------------------------------------------- |
-| `GET /api/leaderboards`              | All leaderboards, including player and tournament counts              |
-| `GET /api/leaderboards?search=burst` | Search titles, descriptions, leagues, and formats                     |
-| `GET /api/leaderboards/:slug`        | One leaderboard with enriched player rankings and related tournaments |
+## Notable Decisions
 
-Use the unique `slug` returned by the collection endpoint for detail requests. Detail rankings include the supplied stats plus each player's avatar and country. Unknown slugs return `404`.
+I decided that displaying an overall win-loss record was more important than displaying the latest change in ELO. It felt like a much more quantifiable number to the average viewer than ELO, a ranking system they might not understand the intricacies of or why a certain-point increase or decrease might be significant apart from its overall implication to rankings. A win-loss counter having a lot more wins than losses will make even the average player think "Wow, this person's good." or seeing a low number on both sides will make someone understand that their current placing is probably due to a lack of many tournament entries.
 
-The API reduces setup and data-joining work. The JSON files in [`challenge-data/`](challenge-data/) remain available for direct imports.
+## Testing
 
-## Assumptions You Can Make
+I really just tested different variations of the leaderboard search page to see which made the most sense, and ended up going with something fairly simple in the end. I also tested having ELO changes display vs. having the win-loss ratio display, and also moving the country indicator to the very left (which I think would look much better with flags instead of letters, which made things too confusing).
 
-- This is a prototype, not a production launch.
-- Please spend no more than 3-4 hours. We do not expect a whole leaderboard platform.
-- You may use the provided Vue or React setup, or choose another stack.
-- You may use AI tools and coding assistants. Be ready to explain how you used them, the decisions you made, and what you would refine.
-- Authentication and user accounts are not required.
-- A frontend-only implementation that imports the JSON directly is acceptable.
-- Make reasonable product decisions, document your assumptions, and optimize for clarity over surface area.
+I also used the Inspect window on the browser I was using to see how my page looked on different resolutions.
 
-## Minimum Bar
+## What I'd Do With More Time
 
-- Leaderboard browsing and search
-- A clear leaderboard detail experience
-- A usable experience on desktop and mobile
-- A repository we can clone and run by following its README
-
-## Stretch Ideas
-
-These are optional. Only do them if the basics are solid. We care more about judgment than any specific extra feature. If you go beyond the basics, focus on making leaderboard or player stats clearer rather than adding unrelated surface area.
-
-## The Data
-
-The synthetic dataset was generated with [`tools/generate-leaderboard-challenge-data.mjs`](tools/generate-leaderboard-challenge-data.mjs) and includes:
-
-- [`leaderboards.json`](challenge-data/leaderboards.json): 6 leaderboard definitions
-- [`players.json`](challenge-data/players.json): 100 player profiles
-- [`tournaments.json`](challenge-data/tournaments.json): 30 tournament records
-- [`leaderboardPlayers.json`](challenge-data/leaderboardPlayers.json): 300 ranked leaderboard entries
-- [`leaderboardTournaments.json`](challenge-data/leaderboardTournaments.json): 24 leaderboard-to-tournament relationships
-
-Generated avatars and banners are self-contained SVG data URLs, so the interface does not depend on an external image service. The generator validates references, ranking order, dates, locations, and tournament compatibility before writing data.
-
-## What to Submit
-
-1. Fork this repository to your own GitHub account.
-2. Complete the challenge in your fork.
-3. Include a README with setup instructions, notable decisions, and deliberate scope cuts.
-4. Share the repository link with us.
-
-The [`SUBMISSION.md`](SUBMISSION.md) template is available as a starting point. You have five days from receiving the challenge to submit it.
-
-## How We Evaluate
-
-| Area              | What we are looking at                                                 |
-| ----------------- | ---------------------------------------------------------------------- |
-| Product thinking  | Does the experience make sense, and were the right things prioritized? |
-| Craft             | Does the design and interaction feel intentional?                      |
-| Technical quality | Is the code clean, well structured, and easy to follow?                |
-| Judgment          | Was the work scoped appropriately for the timebox?                     |
-| Workflow          | Can you explain how you built it and why?                              |
-
-## Build and Preview
-
-```bash
-npm run build
-npm run preview
-```
+With more time, I'd want to improve both pages visually. I'd also like to replace the two-letter country indicators with flags. I also didn't realize there were player profiles... they might have been a more efficient usage of my time although I feel like I did the most with the time I had. I'd also want to have official and featured leaderboards automatically appear at the top of the screen. That's something I only thought about while writing this up, and I'd implement that right now if I wasn't already over on time.
