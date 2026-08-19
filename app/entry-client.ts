@@ -1,9 +1,9 @@
-import { setupApp } from "./app.ts";
+// entry-client.ts
+import { setup } from './app';
 
-const root = document.querySelector<HTMLElement>("#app");
-
-if (!root) {
-  throw new Error("App root element was not found");
+// Execute setup targeting <div id="app"></div>
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => setup('app'));
+} else {
+  setup('app');
 }
-
-setupApp(root);
